@@ -1,17 +1,18 @@
 .card-img-fixed {
+    height: 240px;
     width: 100%;
-    height: 250px;
     object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
-.card-body {
+.card-body.p3 {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    height: 100%;
 }
 
-.card-body .btn {
+.card-body.p3 .btn {
     margin-top: auto;
 }
-
-
-
